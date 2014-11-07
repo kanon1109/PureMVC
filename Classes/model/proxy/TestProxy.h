@@ -11,5 +11,7 @@ public:
 	~TestProxy();
 	//初始化数据
 	void initData();
+	//测试发送一个mvc消息
+	void sendMsg();
 };
 #endif

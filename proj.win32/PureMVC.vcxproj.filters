@@ -22,6 +22,9 @@
     <Filter Include="Classes\model\proxy">
       <UniqueIdentifier>{a88f70ce-aa3b-4d11-8bbf-3428354ed77a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\config">
+      <UniqueIdentifier>{590720fb-67d7-4861-a022-3cf968fbff44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -103,6 +106,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\view\mediator\TestMediator.h">
       <Filter>Classes\view\mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\config\MessageConfig.h">
+      <Filter>Classes\config</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
