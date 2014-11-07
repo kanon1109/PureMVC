@@ -7,6 +7,21 @@
     <Filter Include="Classes">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\model">
+      <UniqueIdentifier>{3fb43e58-3948-4a17-8bc2-6790115d7e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\view">
+      <UniqueIdentifier>{bc60a7a8-e890-41c0-8bc8-738331ad51c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\controller">
+      <UniqueIdentifier>{3c6a6b9d-e7af-48a1-a1f6-bce397067e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\view\mediator">
+      <UniqueIdentifier>{abef2425-c58b-4af3-b422-90916fd75880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\model\proxy">
+      <UniqueIdentifier>{a88f70ce-aa3b-4d11-8bbf-3428354ed77a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -15,8 +30,38 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+    <ClCompile Include="..\Classes\MVCTest.cpp">
       <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Facade.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\mediator\Mediator.cpp">
+      <Filter>Classes\view\mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controller\Command.cpp">
+      <Filter>Classes\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\Notification.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\proxy\Proxy.cpp">
+      <Filter>Classes\model\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controller\InitDataCommand.cpp">
+      <Filter>Classes\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controller\ModelCommand.cpp">
+      <Filter>Classes\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controller\ViewCommand.cpp">
+      <Filter>Classes\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\proxy\TestProxy.cpp">
+      <Filter>Classes\model\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\mediator\TestMediator.cpp">
+      <Filter>Classes\view\mediator</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -26,8 +71,38 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
+    <ClInclude Include="..\Classes\MVCTest.h">
       <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Facade.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\mediator\Mediator.h">
+      <Filter>Classes\view\mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\Command.h">
+      <Filter>Classes\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\Notification.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\proxy\Proxy.h">
+      <Filter>Classes\model\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\InitDataCommand.h">
+      <Filter>Classes\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\ModelCommand.h">
+      <Filter>Classes\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\ViewCommand.h">
+      <Filter>Classes\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\proxy\TestProxy.h">
+      <Filter>Classes\model\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\mediator\TestMediator.h">
+      <Filter>Classes\view\mediator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
