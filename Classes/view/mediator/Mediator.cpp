@@ -9,8 +9,8 @@ Mediator::Mediator()
 
 	
 
-	m_notificationList		= listNotificationInterests();
-	m_facade				= Facade::getInstance();
+	m_notificationList = listNotificationInterests();
+	m_facade = Facade::getInstance();
 }
 
 Mediator::~Mediator()
@@ -38,10 +38,10 @@ vector<const char*> Mediator::listNotificationInterests()
 
 void Mediator::sendNotification(const char* notificationName, CCObject* body /* = NULL */)
 {
-	Notification*					notification;
-	notification					= new Notification();
-	notification->notificationName	= notificationName;
-	notification->body				= body;
+	Notification* notification;
+	notification = new Notification();
+	notification->notificationName = notificationName;
+	notification->body = body;
 	CCNotificationCenter::sharedNotificationCenter()->postNotification("MVC_MESSAGE", notification);
 }
 
@@ -49,8 +49,8 @@ void Mediator::onGetMvcMsg(Notification* notification)
 {
 	vector<const char*> vec = listNotificationInterests();
 	
-	vector<const char*>::iterator it	= vec.begin();
-	vector<const char*>::iterator end	= vec.end();
+	vector<const char*>::iterator it = vec.begin();
+	vector<const char*>::iterator end = vec.end();
 
 	for (; it != end;++it)
 	{
